@@ -1,0 +1,46 @@
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 100px;
+  height: 300px;
+  position: relative;
+
+}
+
+header{
+  background-color: bisque;
+  height: 85vh;
+}
+
+.description{
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.greeting{
+  margin-bottom: 2.3rem;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+.full-name{
+  font-size: 60px;
+  margin-bottom: 1.5rem;
+}
+
+.stack{
+  font-size: 16px;
+}
+
+button{
+  margin-top: 1.2rem;
+}
+
+.next-icon{
+  position: absolute;
+  right: 0;
+  bottom: 175px;
+  width: 50px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+footer{
+  background-color: #000;
+  padding: 10px;
+}
+
+.logo-image{
+  width: 150px;
+  height: 80px;
+}
+
+.social-media-icons{
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.social-media{
+  width: 30px;
+  margin-right: 2rem;
+}
+
+.insta{
+  width: 30px;
+}
+
+p{
+  color: #eee;
+  margin-top: 1.5rem;
+  text-align: center;
+
+}

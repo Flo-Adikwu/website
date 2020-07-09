@@ -1,0 +1,26 @@
+div {
+  display: flex;
+  margin-left: auto;
+}
+a{
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.20rem;
+}
+
+.mat-active{
+  border-bottom: 5px solid #FB9717;
+}
+
+img{
+  width: 100px;
+  height: 64px;
+}
+
+mat-toolbar{
+  background-color: #000;
+}
+
+
+

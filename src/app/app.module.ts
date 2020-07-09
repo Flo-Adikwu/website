@@ -13,6 +13,7 @@ import {FooterComponent} from './footer/footer.component';
 import {MatButtonModule} from '@angular/material/button';
 import {AboutComponent} from './home/about/about.component';
 import {AppRoutingModule} from './app-routing.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {AppRoutingModule} from './app-routing.module';
     HomeComponent,
     NavBarComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

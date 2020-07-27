@@ -1,1 +1,3 @@
-  <router-outlet></router-outlet>
+<app-nav-bar *ngIf = "shouldDisplayNavbar"></app-nav-bar>
+<router-outlet></router-outlet>
+<app-footer *ngIf = "shouldDisplayFooter"></app-footer>

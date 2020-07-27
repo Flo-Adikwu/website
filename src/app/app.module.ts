@@ -11,9 +11,10 @@ import {MatIconModule} from '@angular/material/icon';
 import {NavBarComponent} from './nav-bar/nav-bar.component';
 import {FooterComponent} from './footer/footer.component';
 import {MatButtonModule} from '@angular/material/button';
-import {AboutComponent} from './home/about/about.component';
+import {AboutComponent} from './about/about.component';
 import {AppRoutingModule} from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NavBarComponent,
     FooterComponent,
     AboutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

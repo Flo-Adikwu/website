@@ -1,0 +1,49 @@
+header{
+  background-color: bisque;
+  height: 70vh;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  padding: 60px;
+}
+
+.description{
+  margin: auto;
+  width: 50%;
+}
+
+.description .about-me{
+  font-size: 20px;
+}
+
+.description .full-name {
+  font-size: 30px;
+}
+
+.description .stack{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button{
+  margin-top: 1.2rem;
+}
+
+.left-arrow-icon{
+  width: 50px;
+  cursor: pointer;
+}
+
+.next-icon{
+  width: 50px;
+  cursor: pointer;
+}
+
+
+
+

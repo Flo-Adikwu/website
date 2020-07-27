@@ -9,7 +9,7 @@
 }
 
 header{
-  background-color: bisque;
+  background-color: #ffe4c4;
   height: 85vh;
 }
 
@@ -34,7 +34,7 @@ header{
 }
 
 button{
-  margin-top: 1.2rem;
+  margin-top: 0.7rem;
 }
 
 .next-icon{
